@@ -1,0 +1,102 @@
+body{
+    background: url('https://cdn.mwallpapers.com/photos/wallpapers/creative-graphics/cute-pokemon-android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4khd-wallpapers-desktop-background-android-iphone-1080p-4k-o4pht.jpg');
+    height:500px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity: 1.0;
+}
+h1{
+    color:green;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+h3{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 25px;
+}
+p{
+    color: green;
+    padding:2px;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.container
+{
+    margin:10px;
+    padding:12px;
+    display: flex;
+}
+.pokemon{
+    margin:10px;
+    padding:12px;
+    width:70%;
+}
+image{
+    margin:16px;
+    padding: 16px;
+    width:30%;
+}
+.image1{
+    margin-left:20px;
+    float: right;
+    align-items: center;
+    border: 2px solid red;
+    
+}
+.feedback{
+    margin:16px;
+    padding:16px;
+}
+input[type=submit]{
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    padding:5px;
+    letter-spacing: 1px;
+    border: 2px solid red;
+    border-radius: 5px;
+    color:rebeccapurple;
+}
+label{
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+input[type=text]{
+    color:green;
+    width:20%;
+}
+input[type=email]{
+    color:green;
+    width:20%;
+}
+textarea{
+    width:20%;
+}
+iframe{
+    width:30%;
+    height: 40%;
+}
+input[type=submit]:hover{
+    background-color: lightblue;
+}
+button{
+    background-color: aqua;
+    margin:26px;
+    color: wheat;
+    padding:16px;
+}
+button:hover{
+    color:white;
+    background-color: green;
+    cursor: pointer;
+    font-size: 18px;
+}

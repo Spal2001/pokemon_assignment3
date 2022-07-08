@@ -1,0 +1,32 @@
+body{
+    background: url('https://cdn.mwallpapers.com/photos/wallpapers/creative-graphics/cute-pokemon-android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4khd-wallpapers-desktop-background-android-iphone-1080p-4k-o4pht.jpg');
+    height:500px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity: 1.0;
+}
+h1{
+    color:green;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.container
+{
+    margin:10px;
+    padding:12px;
+    display: flex;
+}
+img{
+    padding:10px;
+}
+img:hover{
+    width:22%;
+}
+iframe{
+    margin: 16px;
+    padding:5px;
+}
